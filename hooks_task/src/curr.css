@@ -1,0 +1,50 @@
+body{
+    background-color: #b7b7b7;
+  }
+  #curr {
+    padding: 3vw;
+  }
+  
+  #curr table{
+    border-radius: 7px;
+    background-color: #D8D8D8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    /* padding: 8vh; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #curr select {
+    width: 98%;
+    height:5vh;
+  }
+  #curr input{
+    width: 98%;
+    height:5vh;
+  }
+  #curr td{
+    /* border: 1px solid; */
+    padding: 1vw;
+    width: 30vh;
+  }
+  #curr tr{
+    /* border: 1px solid; */
+    height:3vw;
+  }
+  #curr button{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 98%;
+    height:5vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width:700px) {
+    #curr table {
+      width: 80%;
+    }
+  }
